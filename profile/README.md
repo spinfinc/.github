@@ -12,7 +12,7 @@ the question sets and the client; the same API runs hosted at [spinf.com](https:
 
 | | |
 |---|---|
-| [**spinf-serve**](https://github.com/spinfinc/spinf-serve) | The open-source inference engine and server. One 24 GB GPU, an OpenAI-compatible API, scoring, extraction and prompt packs. `pip install "spinf-serve[server]"` |
+| [**spinf-serve**](https://github.com/spinfinc/spinf-serve) | The open-source inference engine and server. One 24 GB GPU, an OpenAI-compatible API, scoring, extraction and prompt packs. `pip install "spinf-serve[server]"`, or the image `ghcr.io/spinfinc/spinf-serve` |
 | [**spinf-prompts**](https://github.com/spinfinc/spinf-prompts) | The official prompt packs: ready-made, calibrated question sets (content moderation, triage, products, reviews, brand, entertainment) preloaded into the server |
 | [**spinf-client**](https://github.com/spinfinc/spinf-client) | The Python client, for the hosted API or your own server. `pip install spinf-client` |
 | [**skills**](https://github.com/spinfinc/skills) | Agent skills for Claude Code and other coding agents: `spinf` (calling the API), `spinf-serve` (running the server), `spinf-packs` (authoring packs) |
